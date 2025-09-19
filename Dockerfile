@@ -67,6 +67,6 @@ RUN rm -rf /usr/share/doc /usr/share/man /usr/share/locale
 EXPOSE 80 443
 
 # Start Supervisor
-CMD ["/usr/bin/supervisord", "-n", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
+CMD ["/usr/bin/supervisord", "-n", "-c", "start.sh"]
 
 
